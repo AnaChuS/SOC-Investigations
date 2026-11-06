@@ -1,6 +1,6 @@
 # SOC Investigations
 
-A collection of SOC alert investigations from the TryHackMe SOC Simulator (lab data). Each write-up covers real alert types the way an L1 analyst would handle them: reviewing the evidence, correlating logs in Splunk, reaching a verdict and recommending actions.
+A collection of SOC alert investigations from the TryHackMe SOC Simulator (lab data).Each write-up shows what I checked in Splunk, my verdict, and what I would do next.
 
 ## Write-ups
 
