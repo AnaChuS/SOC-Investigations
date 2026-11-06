@@ -37,7 +37,7 @@ After reviewing the email, the link, the related Splunk email logs and the firew
 
 ### 3. SIEM correlation (Splunk, email logs)
 - I searched mailbox activity around the alert time.
-- At 16:07:35, an internal email from `h.harris@thetrydaily[.]thm` to `j.carter@thetrydaily[.]thm` ("Unable to Receive Onboarding Email from hrconnex.thm") states that `hrconnex[.]thm` is the company's new third-party HR partner and that the new hire had not yet received her onboarding email.
+- At 16:07:35, an internal email from `h.harris@thetrydaily[.]thm` to `j.carter@thetrydaily[.]thm` ("Unable to Receive Onboarding Email from hrconnex[.]thm") states that `hrconnex[.]thm` is the company's new third-party HR partner and that the new hire had not yet received her onboarding email.
 
 ![Splunk internal email](Images/03-splunk-internal-email.png)
 
