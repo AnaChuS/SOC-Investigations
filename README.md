@@ -6,7 +6,7 @@ A collection of SOC alert investigations from the TryHackMe SOC Simulator (lab d
 
 | # | Topic | Cases | Verdicts |
 |---|---|---|---|
-| 1 | [Phishing](01-phishing.md) | Alerts 8814 and 8815 | False positive, true positive |
+| 1 | [Phishing](phishing.md) | Alerts 8814 and 8815 | False positive, true positive |
 
 ## Tools used
 
