@@ -20,6 +20,10 @@
 | Subject | Action Required: Finalize Your Onboarding Profile |
 | Attachment | None |
 
+**Case note**
+
+Closed as false positive. Inbound email from `onboarding@hrconnex[.]thm` to `j.garcia`, with a link to the same domain. The sender is the company's new HR vendor, confirmed by an internal email at 16:07 from `h.harris`. The link is clean in TryDetectThis, there is no attachment, and there are no firewall connections to the domain. No action needed. Suggest HR confirms the vendor and the domain is allowlisted.
+
 ![SIEM alert 8814](Images/01-siem-alert-8814.png)
 
 ### Summary
@@ -74,11 +78,14 @@ The alert fired for an inbound email with an external link. After reviewing the 
 | Field | Value |
 |---|---|
 | Alert time | Nov 6, 2026, 13:56 |
-| Email received | Nov 6, 2026, 13:54:15 |
 | Sender | `urgents@amazon[.]biz` |
 | Recipient | `h.harris@thetrydaily[.]thm` |
 | Subject | Your Amazon Package Couldn't Be Delivered - Action Required |
 | Attachment | None |
+
+**Case note**
+
+Closed as true positive, no compromise found. Fake Amazon delivery email from `urgents@amazon[.]biz` to `h.harris`, with a bit.ly link that TryDetectThis rates malicious. Host `10.20.2.17` tried to open the link at 13:55 and the firewall blocked it. Only one recipient found. Actions: block the sender domain, delete the email from the mailbox, tell the user not to click, check `10.20.2.17` for other activity.
 
 ![SIEM alert 8815](Images/05-siem-alert-8815.png)
 
