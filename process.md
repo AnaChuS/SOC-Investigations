@@ -59,7 +59,7 @@ Closed as false positive. `TrustedInstaller.exe` was started by `services.exe` o
 
 **Case note**
 
-Closed as false positive. `rdpclip.exe` (Remote Desktop clipboard) was started by `svchost.exe` on `win-3453`, which is normal when a remote session opens. It started no child processes. Other host activity was ordinary (Internet Explorer, Outlook, print spooler, `AtBroker.exe`), with no PowerShell, `cmd.exe`, `net`, `whoami` or `nslookup`. Searches for the win-3450 incident indicators found events on `win-3450` only, so no sign of lateral movement. No action needed. Suggest confirming with the host owner that the remote session was expected.
+Closed as false positive. `rdpclip.exe` (Remote Desktop clipboard) was started by `svchost.exe` on `win-3453`, which is normal when a remote session opens. It started no child processes. Other host activity was ordinary (Internet Explorer, Outlook, print spooler, `AtBroker.exe`), with no PowerShell, `cmd.exe`, `net`, `whoami` or `nslookup`. Searches for the win-3453 incident indicators found events on `win-3453` only, so no sign of lateral movement. No action needed. Suggest confirming with the host owner that the remote session was expected.
 
 Same process as alert 1006 in [the win-3450 incident](incident-win-3450.md). Here the host showed no related activity.
 
