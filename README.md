@@ -1,14 +1,13 @@
 # SOC Investigations
 
-A collection of SOC alert investigations from the TryHackMe SOC Simulator (lab data).Each write-up shows what I checked in Splunk, my verdict, and what I would do next.
+Alerts I investigated in the TryHackMe SOC Simulator. Each write-up shows what I checked in Splunk, my verdict, and what I would do next.
 
-## Write-ups
-
-| # | Topic | Cases | Verdicts |
+| # | Write-up | Alerts | Verdicts |
 |---|---|---|---|
-| 1 | [Phishing](phishing.md) | Alerts 8814 and 8815 | False positive, true positive |
+| 1 | [Incident: phishing to DNS exfiltration](incident-win-3450.md) | 1005, 1006, 1022, 1024, 1025-1034 | True positive, critical |
+| 2 | [Phishing alerts](phishing.md) | 8814, 8815 | False positive, true positive |
+| 3 | [Process alerts](process.md) | 1001, 1009 | False positives |
 
-## Tools used
+Tools: Splunk, TryDetectThis, MITRE ATT&CK, Cyberchef.
 
-Splunk (SIEM), TryDetectThis (URL/IP/file reputation), MITRE ATT&CK for classification.
 
