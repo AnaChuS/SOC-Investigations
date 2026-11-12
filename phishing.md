@@ -57,7 +57,6 @@ Closed as false positive. Inbound onboarding email from `hrconnex[.]thm` to a ne
 |---|---|
 | Rule | Inbound Email Containing Suspicious External Link |
 | Alert time | Nov 6, 2026, 13:56 |
-| Email received | Nov 6, 2026, 13:54:15 |
 | Sender | `urgents@amazon[.]biz` |
 | Recipient | `h.harris@thetrydaily[.]thm` |
 | Subject | Your Amazon Package Couldn't Be Delivered - Action Required |
