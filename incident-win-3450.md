@@ -2,8 +2,6 @@
 
 **Source:** TryHackMe SOC Simulator (lab data) | **Tools:** Splunk, CyberChef | **Date of activity:** Nov 15, 2026
 
-> **Note on timestamps.** The simulator replays events in real time, so every time in this report comes from one lab session on Nov 15, 2026. Splunk event times are used throughout. The `timestamp` field inside each alert runs a constant 13 seconds later than the matching Splunk event (for example alert 1022: 15:29:39 in the alert, 15:29:26 in Splunk).
-
 | Field | Value |
 |---|---|
 | Verdict | True positive, critical |
